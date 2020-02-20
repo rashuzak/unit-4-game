@@ -1,20 +1,21 @@
 body {
-	background-image: url(../../assets/images/article-migration-image-how-to-work-with-crystals-768x432.png);
+/*	background-image: url(../../assets/images/article-migration-image-how-to-work-with-crystals-768x432.png);*/
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 18px;
 }
 
 .crystal-image {
-	width: 150px;
+	width: 25%;
 	height: auto;
     border: 3px solid lightsteelblue;
-    margin-left: 20px;
-    margin-top: 15px;
+   
+   margin-left: 20px;
+   margin-top: 15px;  
 }
 
 #gameheader {
 	background-color: #658ED5;
-    width: 350px;
+    width: 100%x;
     height: 80px;
     margin-bottom: 10px;
     margin-left: 25px;
@@ -29,7 +30,7 @@ body {
 }
 
 .paragraph {
-    width: 370px;
+    width: 75%;
     height: 330px;
     background-color: cornsilk;
     color: teal;
@@ -52,7 +53,7 @@ body {
     color: snow;
 }
 
-.winandlose {
+.results {
     background-color: skyblue;
     color: lavender;
     margin-left: 325px;
