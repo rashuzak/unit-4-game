@@ -19,16 +19,22 @@ $(document).ready(function () {
 
     function restart() {
         computerNumber = Math.floor((Math.random() * 101) + 19);
-        console.log(computerNumber);
+        
         $("#targetNumber").text(computerNumber);
 
-        // here you make a new counts value but never put it anywhere
-        crystalNum = (Math.floor(Math.random() * 11) + 1);
+       // Reasigning random numbers to the crystals after a game restarts
+
+       for (var i = 0; i < crystals.length; i++) {
+        var crystalNum = Math.floor(Math.random() * 11) + 1;
+        imagecrystal.attr("data-crystalvalue", crystalNum);
+        $("#crystal").append(imagecrystal);
         counter = 0;
         $("#scores").text(counter);
+
+       }
     }
 
-    // Next we create a for loop to create crystals and give them hidden values
+    // A for loop to create crystals and give them hidden values
 
     for (var i = 0; i < crystals.length; i++) {
         var crystalNum = Math.floor(Math.random() * 11) + 1;
@@ -41,21 +47,16 @@ $(document).ready(function () {
 
         imagecrystal.attr("src", crystals[i]);
 
-
         // Each crystal will be given the class ".crystal-image". (for css)
 
         imagecrystal.addClass("crystal-image");
-
-        // Each imageCrystal will be given a src link to the crystal image
-
-        // imagecrystal.attr("src", crystals[i]);
 
         // Each imageCrystal will be given a data attribute called data-crystalValue.
 
         imagecrystal.attr("data-crystalvalue", crystalNum);
 
-
         // Each crystal image (with all it classes and attributes) will get added to the page.
+        
         $("#crystal").append(imagecrystal);
     }
 

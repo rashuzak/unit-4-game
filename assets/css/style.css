@@ -3,65 +3,74 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 18px;
+    font-size: 16px;
+    
 }
 
 .clearfix {
     content: "";
     display: block;
     clear: both;
+    
 }
 
 
 #gameheader {
     background-color: darkturquoise;
+    border: 3px solid lightsteelblue; 
     color: rgb(96, 42, 53);
-    width: 25%;
+    width: 50%;
     height: 80px;
+    margin-top: 10px;
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-family: 'Lobster', cursive;
+
 }
 
 #scores {
-    font-size: 16px;
+    font-size: 21px; 
     font-weight: bold;
     text-align: center;	
+
 }
 
 .paragraph {
     width: 50%;
-    height: 250px;
-    background-color: cornsilk;
-    color: teal;
+    height: 253px;
+    background-color: rgb(221, 215, 191); 
+    border: 3px solid lightsteelblue;
+    color: darkcyan; 
     font-size: 16px;
     padding: 15px;
     margin: auto;
+
 }
 
 .randomNum, .results {
+    border: 3px solid lightsteelblue; 
 	float: left;
-    width: 25%;
     height: 70px;
     margin-top: 15px;
-    margin-left: 110px;
     padding-left: 15px;
+    color: rgb(199, 177, 177);
+
 }
 
 .randomNum {
-   
+    width: 21%;
+    margin-left: 325px;
     background-color: rgb(44, 105, 129);
-    color: rgb(199, 177, 177);
+
 }
 
 .results {
-    font-size: 16px;
+    width: 13%;
     background-color: rgb(44, 105, 129);
-    color: rgb(199, 177, 177);
-    margin-left: 325px;
-    /*max-width: 100px;*/
+    margin-left: 204px;
+   
 }
 
 
@@ -72,17 +81,16 @@ body {
 	height: 110px;
     border: 3px solid lightsteelblue;
     margin-top: 53px;
-    margin-left: 135px;
-   /* padding-left: 15px;*/
+    margin-left: 155px;
    
 }
 
 .totalscore {
-    width: 32%;
-    height: 75px;
-    background-color: cornsilk;
-    margin-top: 45px;
-    margin-left: 110px;
-    padding-left: 10px;
+    width: 21%;
+    height: 70px;
+    border: 3px solid lightsteelblue;
+    margin-top: 32px;
+    margin-left: 155px;
+    
 }
 
