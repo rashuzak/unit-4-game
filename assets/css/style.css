@@ -11,7 +11,7 @@ body {
     content: "";
     display: block;
     clear: both;
-    
+
 }
 
 
@@ -61,7 +61,7 @@ body {
 
 .randomNum {
     width: 21%;
-    margin-left: 325px;
+    margin-left: 345px;
     background-color: rgb(44, 105, 129);
 
 }
@@ -69,7 +69,7 @@ body {
 .results {
     width: 13%;
     background-color: rgb(44, 105, 129);
-    margin-left: 204px;
+    margin-left: 214px;
    
 }
 
