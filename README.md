@@ -8,6 +8,8 @@ Overview
 Technologies/Functions
 
 
+
+
 Overview:
 
 .This is a guessing number game.
@@ -26,9 +28,12 @@ Overview:
 
 .The number of games won and lost will be displayed.
 
-,Win or lose, either way the game restarts.
+.Win or lose, either way the game restarts.
 
 .When the game is restarted, the player will be shown a new random number, all the crystals will have 4 new different   hidden values, and the player's total score is reset to 0.
+
+
+
 
 Technologies/Functions:
 
@@ -39,6 +44,9 @@ Math.random()
 Bootstrap
 
 Google Fonts
+
+
+
 
 Game notes:
 

@@ -2,6 +2,12 @@ body {
 	background-image: url(../../assets/images/article-migration-image-how-to-work-with-crystals-768x432.png);
     background-repeat: no-repeat;
     background-size: cover;
+   /* font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;*/
+    
+}
+
+.mainSection {
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
     font-size: 16px;
     
@@ -13,6 +19,8 @@ body {
     clear: both;
 
 }
+
+
 
 
 #gameheader {
@@ -61,7 +69,7 @@ body {
 
 .randomNum {
     width: 21%;
-    margin-left: 125px;
+    margin-left: 410px;
     background-color: rgb(44, 105, 129);
     text-align: center;
     color: rgb(199, 177, 177);
@@ -72,7 +80,7 @@ body {
 .results {
     width: 13%;
     background-color: rgb(52, 143, 180);
-    margin-left: 175px;
+    margin-left: 263px;
   
    
 }
@@ -85,18 +93,17 @@ body {
 	height: 110px;
     border: 3px solid lightsteelblue;
     margin-top: 45px;
-    margin-left: 125px;
+    margin-left: 225px;
    
 }
 
 .totalscore {
-    width: 25%;
+    width: 21%;
     height: 70px;
     border: 3px solid lightsteelblue;
-    
-    margin-top: 32px;
+    margin-top: 52px;
     margin-bottom: 12px;
-    margin-left: 125px;
+    margin-left: 225px;
     font-size: 20px;
     padding: 5px;
     
